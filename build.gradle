@@ -70,4 +70,8 @@ subprojects { subproject ->
             }
         }
     }
+
+    processResources {
+        expand(project.properties)
+    }
 }

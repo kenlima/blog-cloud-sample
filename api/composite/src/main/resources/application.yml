@@ -1,0 +1,14 @@
+endpoints:
+  restart:
+    enabled: true
+    sensitive: false
+
+
+
+info:
+  build:
+    name: ${name}
+    description: ${description}
+    version: ${version}
+    springBootVersion: ${springBootVersion}
+    test: ${test}
